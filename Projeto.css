@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body{
+    height: 100vh;
+    background-color: rgb(116, 51, 202);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 0;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.Center>img{
+    position: relative;
+    top: 250px;left: 100px;
+
+}
+.text{
+    position: relative;
+    color: white;
+    font-family: cursive;
+    left: 850px;
+    bottom: 150px;
+    width: 400px;
+    font-size: 20px;
+}
+.text> h1{
+    width: 500px;
+}
+.text>p{
+    margin-top: 10px;
+    width: 500px;
+}
+.Botão{
+    position: relative;
+    left: 900px;
+    bottom: 130px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border: 100px;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 1px 2px 5px 1px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+.Botão:hover{
+    background-color: rgb(197, 81, 191);
+    color: white;
+    box-shadow: 0px 0px 10px 5px #c551bf
+}
+
+footer{
+    margin-top: 90px;
+    margin-left: 155vh;
+    
+}
+svg{
+    width: 40px;
+    height: 50px;
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+    color: linear-gradient(top, #c551bf,#963d91 );
+    transition: 1s;
+}
+svg:hover{
+    color: #c551bf;
+}
